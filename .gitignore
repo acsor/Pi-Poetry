@@ -1,3 +1,4 @@
 
 #Local ignore rules
+bin/
 *.swp
