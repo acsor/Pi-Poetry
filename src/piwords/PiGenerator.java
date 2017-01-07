@@ -13,61 +13,93 @@ public class PiGenerator {
      * @return precision digits of pi in hexadecimal.
      */
     public static int[] computePiInHex (int precision) {
-        // TODO: Implement (Problem 1.d)
-        return new int[0];
+        if (precision < 0) {
+            return null;
+        }
+        final int[] result = new int[precision];
+
+        for (int i = 0; i < precision; i++) {
+            result[i] = piDigit(i + 1); // Passing i + 1 to piDigit() because we don't want to compute the leading 3.
+        }
+
+        return result;
     }
 
     /**
-     * Computes a ^ b mod m
      * <p>
-     * If a < 0, b < 0, or m < 0, return -1.
+     * Computes a ^ b mod m.<br>
+     * This is the implementation of the author of this code, but it doesn't work.
+     * In order to advance to the other points, the one defined below written by another person is used.
+     * </p>
      *
-     * @param a
-     * @param b
-     * @param m
-     * @return a^b mod m
+     * <p>If a < 0, b < 0, or m < 0, return -1.</p>
+     *
+     * @param a the base
+     * @param b the exponent
+     * @param m the modulo
+     * @return a ^ b mod m
      */
-    public static int powerMod (int a, int b, int m) {
-        /*
-        let binB equal to the binary expansion of b (the exponent)
-        iterate through binB with index variable i
-        when binB[i] == 1, we can:
-            calculate the power with base base and exponent 2 ^ i
-            calculate mod = power % mod
-            multiply mod to the result
-         */
+    public static int powerModUnselected (int a, int b, int m) {
         if (a < 0 || b < 0 || m < 0) {
             return -1;
-        } else if (a == 0) {
-            return m;
         }
 
-        final char[] binaryExpansion = Integer.toBinaryString(b).toCharArray();
-        int result = 1;
-        int power;
+        final String bBinaryExpansion = Integer.toBinaryString(b);
+        long result = 1, power;
+        int ithBit;
 
-        for (int i = binaryExpansion.length - 1; i >= 0; i--) {
-            if (Integer.parseInt(String.valueOf(binaryExpansion[i])) == 1) {
-                power = calculatePower(a, i, binaryExpansion);
+        a = a % m;
 
-                if (result == 0) {
-                    result = power % m;
-                } else {
-                    result *= power % m;
-                }
+        for (int i = 0; i < bBinaryExpansion.length(); i++) {
+            ithBit = Integer.valueOf(String.valueOf(bBinaryExpansion.charAt(i)));
+
+            if (ithBit == 1) {
+                power = (long) Math.pow(a, calculateExponent(bBinaryExpansion, i)) % m;
+
+                result = (result * power) % m;
             }
         }
 
-        return result % m;
+        return (int) result % m;
     }
 
-    private static int calculatePower (int base, int index, char[] binaryString) {
-        final int realIndex = binaryString.length - 1 - index;
+    public static int powerMod (int a, int b, int m) {
+        int baseInt = a;
+        int resInt = 1;
 
-        return (int) Math.pow (
-                base,
-                Math.pow(2, realIndex)
-        );
+        if (a < 0 || b < 0 || m <= 0) {
+            return -1;
+        }
+
+        assert m * m <= Long.MAX_VALUE;
+
+        if (m == 1) {
+            return 0;
+        }
+
+        long res = 1;
+
+        a = a % m;
+        baseInt = baseInt % m;
+
+        while (b > 0) {
+            if (b % 2 != 0) {
+                res = ((res % m) * (a % m)) % m;
+
+                resInt = (resInt * baseInt) % m;
+            }
+
+            b = b / 2;
+            a = (a * a) % m;
+
+            baseInt = (baseInt * baseInt) % m;
+        }
+
+        return (int) res;
+    }
+
+    private static double calculateExponent (final String bitString, int index)  {
+        return Math.pow(2, bitString.length() - 1 - index);
     }
 
     /**
@@ -115,4 +147,5 @@ public class PiGenerator {
 
         return s + t;
     }
+
 }
