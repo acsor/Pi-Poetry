@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08a26e4-2fc1-48fd-9af2-e691315aeb75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/pi-hex.1000000.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/pi-hex.62500.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/PiGenerator.java" afterPath="$PROJECT_DIR$/src/piwords/PiGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/PiGeneratorTest.java" afterPath="$PROJECT_DIR$/src/piwords/PiGeneratorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/BaseTranslator.java" afterPath="$PROJECT_DIR$/src/piwords/BaseTranslator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java" afterPath="$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/Main.java" afterPath="$PROJECT_DIR$/src/piwords/Main.java" />
     </list>
     <ignored path="Problem set 1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,38 +31,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PiGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/piwords/PiGenerator.java">
+      <file leaf-file-name="BaseTranslator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="396">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
-                <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-                <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
+                <element signature="method#convertBase#0;class#BaseTranslator#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PiGeneratorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/piwords/PiGeneratorTest.java">
+      <file leaf-file-name="BaseTranslatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-223">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="450">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
-                <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-                <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="method#basicBaseTranslatorTest#0;class#BaseTranslatorTest#0" expanded="true" />
+                <element signature="method#convertBaseDigitsTooHigh#0;class#BaseTranslatorTest#0" expanded="true" />
+                <element signature="method#convertBaseInputBaseTooLittle#0;class#BaseTranslatorTest#0" expanded="true" />
+                <element signature="method#convertBaseOutputBaseTooLittle#0;class#BaseTranslatorTest#0" expanded="true" />
+                <element signature="method#convertBasePrecisionTooLittle#0;class#BaseTranslatorTest#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pi-hex.62500.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/pi-hex.62500.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -89,6 +81,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/piwords/PiGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/piwords/PiGenerator.java" />
+        <option value="$PROJECT_DIR$/src/piwords/Main.java" />
+        <option value="$PROJECT_DIR$/src/piwords/BaseTranslator.java" />
+        <option value="$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java" />
       </list>
     </option>
   </component>
@@ -149,7 +144,7 @@
     <property name="SearchEverywhereHistoryKey" value="BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Integer&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java&#10;Math&#9;PSI&#9;JAVA://java.lang.Math" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.PiGeneratorTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="PiGeneratorTest.testReadHexPiDigits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -228,32 +223,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PiGeneratorTest.powerModTestTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="piwords.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ps1-starting" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="piwords" />
-      <option name="MAIN_CLASS_NAME" value="piwords.PiGeneratorTest" />
-      <option name="METHOD_NAME" value="powerModTestTemp" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="PiGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -278,6 +247,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="piwords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="piwords.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ps1-starting" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -519,16 +508,16 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.testReadHexPiDigits" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.powerModTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.computePiInHexTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.powerModTestTemp" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.testReadHexPiDigits" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.computePiInHexTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.powerModTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.powerModTestTemp" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.testReadHexPiDigits" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.computePiInHexTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PiGeneratorTest.powerModTest" />
       </list>
     </recent_temporary>
   </component>
@@ -539,21 +528,21 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="Default" summary="Default task">
+    <task active="true" id="Default" summary="Default task">
       <branch name="master" repository="$PROJECT_DIR$" />
       <changelist id="d08a26e4-2fc1-48fd-9af2-e691315aeb75" name="Default" comment="" />
       <created>1483690647233</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1483691827978</updated>
+      <updated>1483788232545</updated>
     </task>
-    <task active="true" id="LOCAL-00001" summary="Problem 1">
+    <task id="LOCAL-00001" summary="Problem 1">
       <branch name="Problem-1" repository="$PROJECT_DIR$" />
       <created>1483691739279</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1483691827998</updated>
+      <updated>1483788232471</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -592,35 +581,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1282" height="1002" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5132812" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36796874" sideWeight="0.51704544" order="6" side_tool="true" content_ui="tabs" x="104" y="109" width="1166" height="541" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3671875" sideWeight="0.51704544" order="6" side_tool="true" content_ui="tabs" x="104" y="109" width="1166" height="541" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42105263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.66917294" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66871166" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33203125" sideWeight="0.48295453" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3316252" sideWeight="0.48295453" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36015624" sideWeight="0.4827214" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4575725" sideWeight="0.48243046" order="3" side_tool="false" content_ui="tabs" x="0" y="1" width="1280" height="1024" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35505125" sideWeight="0.45156482" order="5" side_tool="true" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4575725" sideWeight="0.48243046" order="3" side_tool="false" content_ui="tabs" x="0" y="1" width="1280" height="1024" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42105263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34296876" sideWeight="0.50913244" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4004193" sideWeight="0.48671874" order="12" side_tool="false" content_ui="tabs" x="0" y="1" width="1280" height="1024" />
@@ -633,7 +622,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40040857" sideWeight="0.5132812" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5132812" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -642,20 +631,21 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36015624" sideWeight="0.4827214" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41777778" sideWeight="0.48243046" order="3" side_tool="false" content_ui="tabs" x="0" y="1" width="1280" height="1024" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4575725" sideWeight="0.48243046" order="3" side_tool="false" content_ui="tabs" x="0" y="1" width="1280" height="1024" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3682284" sideWeight="0.5172786" order="6" side_tool="true" content_ui="tabs" x="104" y="109" width="1166" height="541" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36796874" sideWeight="0.51704544" order="6" side_tool="true" content_ui="tabs" x="104" y="109" width="1166" height="541" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42074075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42105263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34296876" sideWeight="0.50913244" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66917294" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4004193" sideWeight="0.48671874" order="12" side_tool="false" content_ui="tabs" x="0" y="1" width="1280" height="1024" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3546875" sideWeight="0.49086758" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316252" sideWeight="0.48295453" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32704404" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -694,50 +684,18 @@
     <confirmRemoveEmptyChangelist value="2" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="37" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="Math.pow(base, exp) % modulo" language="JAVA" />
-        <watch expression="PiGenerator.powerMod(base, exp, modulo)" language="JAVA" />
-        <watch expression="Math.pow(a, b) % m" language="JAVA" />
-        <watch expression="Math.pow(a, b) &lt; Long.MAX_VALUE" language="JAVA" />
-        <watch expression="PiGenerator.powerMod(a, b, m)" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/pi-hex.62500.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="141" selection-start-line="0" selection-start-column="141" selection-end-line="0" selection-end-column="141" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/piwords/PiGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="160" column="35" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,10 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="116" selection-start-line="21" selection-start-column="116" selection-end-line="21" selection-end-column="116" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,10 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="141" selection-start-line="0" selection-start-column="141" selection-end-line="0" selection-end-column="141" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,10 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,10 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,10 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,10 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,10 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,10 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,10 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="116" selection-start-line="21" selection-start-column="116" selection-end-line="21" selection-end-column="116" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="141" selection-start-line="0" selection-start-column="141" selection-end-line="0" selection-end-column="141" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,10 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,10 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="116" selection-start-line="21" selection-start-column="116" selection-end-line="21" selection-end-column="116" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,10 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="141" selection-start-line="0" selection-start-column="141" selection-end-line="0" selection-end-column="141" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,10 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="116" selection-start-line="21" selection-start-column="116" selection-end-line="21" selection-end-column="116" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,10 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="141" selection-start-line="0" selection-start-column="141" selection-end-line="0" selection-end-column="141" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,10 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,10 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,10 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,10 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,10 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,10 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,13 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="962" column="23" selection-start-line="962" selection-start-column="23" selection-end-line="962" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/piwords/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1114,9 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="322" column="0" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
-          <folding>
-            <element signature="method#assertEquals#8;class#Assert#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,28 +993,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/piwords/PiGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="method#powerModUnselected#0;class#PiGenerator#0" expanded="true" />
-            <element signature="method#powerMod#0;class#PiGenerator#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/piwords/PiGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/piwords/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
-            <element signature="method#powerModTest#0;class#PiGeneratorTest#0" expanded="true" />
-            <element signature="method#computePiInHexTest#0;class#PiGeneratorTest#0" expanded="true" />
+            <element signature="method#convertBase#0;class#BaseTranslator#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="method#basicBaseTranslatorTest#0;class#BaseTranslatorTest#0" expanded="true" />
+            <element signature="method#convertBaseDigitsTooHigh#0;class#BaseTranslatorTest#0" expanded="true" />
+            <element signature="method#convertBaseInputBaseTooLittle#0;class#BaseTranslatorTest#0" expanded="true" />
+            <element signature="method#convertBaseOutputBaseTooLittle#0;class#BaseTranslatorTest#0" expanded="true" />
+            <element signature="method#convertBasePrecisionTooLittle#0;class#BaseTranslatorTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
