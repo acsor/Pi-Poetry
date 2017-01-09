@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d08a26e4-2fc1-48fd-9af2-e691315aeb75" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/BaseTranslator.java" afterPath="$PROJECT_DIR$/src/piwords/BaseTranslator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java" afterPath="$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/DigitsToStringConverter.java" afterPath="$PROJECT_DIR$/src/piwords/DigitsToStringConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/piwords/DigitsToStringConverterTest.java" afterPath="$PROJECT_DIR$/src/piwords/DigitsToStringConverterTest.java" />
     </list>
     <ignored path="Problem set 1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,24 +33,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseTranslator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslator.java">
+      <file leaf-file-name="DigitsToStringConverter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/piwords/DigitsToStringConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+            <state relative-caret-position="108">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTranslatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java">
+      <file leaf-file-name="DigitsToStringConverterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/piwords/DigitsToStringConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="414">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding>
-                <element signature="e#561#607#0" expanded="false" />
-                <element signature="e#4486#4491#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#basicNumberSerializerTest#0;class#DigitsToStringConverterTest#0" expanded="true" />
+                <element signature="method#testDigitsNegative#0;class#DigitsToStringConverterTest#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,6 +87,8 @@
         <option value="$PROJECT_DIR$/src/piwords/Main.java" />
         <option value="$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java" />
         <option value="$PROJECT_DIR$/src/piwords/BaseTranslator.java" />
+        <option value="$PROJECT_DIR$/src/piwords/DigitsToStringConverter.java" />
+        <option value="$PROJECT_DIR$/src/piwords/DigitsToStringConverterTest.java" />
       </list>
     </option>
   </component>
@@ -165,11 +168,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,110 +185,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="BaseTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="piwords.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ps1-starting" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="piwords" />
-      <option name="MAIN_CLASS_NAME" value="piwords.BaseTranslatorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BaseTranslatorTest.convertBaseTenToBin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="piwords.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ps1-starting" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="piwords" />
-      <option name="MAIN_CLASS_NAME" value="piwords.BaseTranslatorTest" />
-      <option name="METHOD_NAME" value="convertBaseTenToBin" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BaseTranslatorTest.convertBaseBinToTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="piwords.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ps1-starting" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="piwords" />
-      <option name="MAIN_CLASS_NAME" value="piwords.BaseTranslatorTest" />
-      <option name="METHOD_NAME" value="convertBaseBinToTen" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BaseTranslatorTest.tempTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="piwords.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ps1-starting" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="piwords" />
-      <option name="MAIN_CLASS_NAME" value="piwords.BaseTranslatorTest" />
-      <option name="METHOD_NAME" value="tempTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -304,6 +203,110 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ps1-starting" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DigitsToStringConverterTest.basicNumberSerializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="piwords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ps1-starting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="piwords" />
+      <option name="MAIN_CLASS_NAME" value="piwords.DigitsToStringConverterTest" />
+      <option name="METHOD_NAME" value="basicNumberSerializerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DigitsToStringConverterTest.testDigitsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="piwords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ps1-starting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="piwords" />
+      <option name="MAIN_CLASS_NAME" value="piwords.DigitsToStringConverterTest" />
+      <option name="METHOD_NAME" value="testDigitsNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DigitsToStringConverterTest.testDigitsOverflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="piwords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ps1-starting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="piwords" />
+      <option name="MAIN_CLASS_NAME" value="piwords.DigitsToStringConverterTest" />
+      <option name="METHOD_NAME" value="testDigitsOverflow" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DigitsToStringConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="piwords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ps1-starting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="piwords" />
+      <option name="MAIN_CLASS_NAME" value="piwords.DigitsToStringConverterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -542,19 +545,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BaseTranslatorTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BaseTranslatorTest.convertBaseTenToBin" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BaseTranslatorTest.convertBaseBinToTen" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BaseTranslatorTest.tempTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DigitsToStringConverterTest.basicNumberSerializerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DigitsToStringConverterTest.testDigitsNegative" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DigitsToStringConverterTest.testDigitsOverflow" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DigitsToStringConverterTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BaseTranslatorTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BaseTranslatorTest.tempTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BaseTranslatorTest.convertBaseTenToBin" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BaseTranslatorTest.convertBaseBinToTen" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DigitsToStringConverterTest.testDigitsOverflow" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DigitsToStringConverterTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DigitsToStringConverterTest.testDigitsNegative" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DigitsToStringConverterTest.basicNumberSerializerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -585,24 +588,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseTranslatorTest - 2017.01.09 at 12h 08m 38s.xml">
-      <configuration name="BaseTranslatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTranslatorTest_convertBaseBinToTen - 2017.01.09 at 11h 45m 34s.xml">
-      <configuration name="BaseTranslatorTest.convertBaseBinToTen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTranslatorTest_convertBaseBinToTen - 2017.01.09 at 11h 46m 21s.xml">
-      <configuration name="BaseTranslatorTest.convertBaseBinToTen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTranslatorTest_convertBaseTenToBin - 2017.01.09 at 11h 43m 04s.xml">
-      <configuration name="BaseTranslatorTest.convertBaseTenToBin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTranslatorTest_convertBaseTenToBin - 2017.01.09 at 11h 58m 38s.xml">
-      <configuration name="BaseTranslatorTest.convertBaseTenToBin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseTranslatorTest_convertBaseTenToBin - 2017.01.09 at 11h 58m 47s.xml">
-      <configuration name="BaseTranslatorTest.convertBaseTenToBin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BaseTranslatorTest_tempTest - 2017.01.09 at 12h 03m 00s.xml">
       <configuration name="BaseTranslatorTest.tempTest" configurationId="JUnit" />
     </history-entry>
@@ -615,10 +600,28 @@
     <history-entry file="BaseTranslatorTest_tempTest - 2017.01.09 at 12h 05m 37s.xml">
       <configuration name="BaseTranslatorTest.tempTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DigitsToStringConverterTest - 2017.01.09 at 15h 51m 58s.xml">
+      <configuration name="DigitsToStringConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitsToStringConverterTest_basicNumberSerializerTest - 2017.01.09 at 15h 46m 20s.xml">
+      <configuration name="DigitsToStringConverterTest.basicNumberSerializerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitsToStringConverterTest_testDigitsNegative - 2017.01.09 at 15h 50m 30s.xml">
+      <configuration name="DigitsToStringConverterTest.testDigitsNegative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitsToStringConverterTest_testDigitsOverflow - 2017.01.09 at 15h 51m 37s.xml">
+      <configuration name="DigitsToStringConverterTest.testDigitsOverflow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitsToStringConverterTest_testDigitsOverflow - 2017.01.09 at 15h 51m 50s.xml">
+      <configuration name="DigitsToStringConverterTest.testDigitsOverflow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DigitsToStringConverterTest_testDigitsOverflow - 2017.01.09 at 15h 52m 19s.xml">
+      <configuration name="DigitsToStringConverterTest.testDigitsOverflow" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1368" height="746" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -626,14 +629,14 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889196" sideWeight="0.5132812" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36310396" sideWeight="0.52560085" order="6" side_tool="true" content_ui="tabs" x="104" y="109" width="1166" height="541" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3601757" sideWeight="0.52526313" order="6" side_tool="true" content_ui="tabs" x="104" y="109" width="1166" height="541" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41925925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66962963" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41925925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6666667" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33235726" sideWeight="0.47439915" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32503662" sideWeight="0.47083774" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36015624" sideWeight="0.4827214" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -734,20 +737,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/piwords/PiGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="116" selection-start-line="21" selection-start-column="116" selection-end-line="21" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/piwords/PiGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/pi-hex.62500.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1053,10 +1042,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/piwords/Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="e#561#607#0" expanded="false" />
             <element signature="e#4486#4491#0" expanded="false" />
@@ -1064,10 +1061,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/piwords/BaseTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/piwords/DigitsToStringConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        <state relative-caret-position="414">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#basicNumberSerializerTest#0;class#DigitsToStringConverterTest#0" expanded="true" />
+            <element signature="method#testDigitsNegative#0;class#DigitsToStringConverterTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/piwords/DigitsToStringConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
