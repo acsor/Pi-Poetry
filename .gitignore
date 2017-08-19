@@ -1,4 +1,5 @@
-
 #Local ignore rules
+**/workspace.xml
+**/tasks.xml
 bin/
 *.swp
